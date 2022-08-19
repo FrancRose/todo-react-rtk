@@ -1,10 +1,14 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux/es/exports";
+import { addTask } from "../features/tasks/taskSlice";
 
 const TaskForm = () => {
   const [task, setTask] = useState({
     title: "",
     description: "",
   });
+
+  const dispatch = useDispatch();
 
   const handleChange = (e) => {
     setTask({
@@ -15,6 +19,7 @@ const TaskForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    dispatch(addTask(task))
   };
 
   return (
