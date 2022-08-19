@@ -14,7 +14,7 @@ const TasksList = () => {
   return (
     <div>
       <header>
-        <h1>Tasks</h1>
+        <h1>Tasks: {tasks.length} to complete</h1>
         <Link to="/create-task">Create Task</Link>
       </header>
 
@@ -23,6 +23,7 @@ const TasksList = () => {
           <h3>{task.title}</h3>
           <p>{task.description}</p>
           <button onClick={() => handleDelete(task.id)}>Delete</button>
+          <Link to={`/edit-task/${task.id}`}>Edit</Link>
         </div>
       ))}
     </div>
