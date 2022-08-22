@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# TODO React App w/ React Toolkit & Redux
+This is a project for the full stack bootcamp certificate w/ UCSB.
+
+## By Francisco Rosete
+This is a basic CRUD app that allows you to manage a task/todo list. It is made w/ React, React Redux, React Router & Tailwind Css
+
+## Ideas for future improvement
+1. Add Framer motion for transition animations
+
+2. Sort function for completed/in progress tasks
+
+3. Dark/Light Mode toggle
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -3,8 +3,8 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div className="bg-zinc-900 h-screen text-white">
-      <div className="flex items-center justify-center h-4/6">
-        <div className="p-6">
+      <div className="flex items-center justify-center h-screen">
+        <div className="p-6 bg-neutral-800">
           <form>
             <div className="grid grid-cols-2 gap-4">
               <div className="flex flex-col">
