@@ -45,6 +45,8 @@ const TaskForm = () => {
   }, [params.id, tasks]);
 
   return (
+    <div className="bg-zinc-900 h-screen text-white">
+      <div className="flex items-center justify-center h-screen">
     <form onSubmit={handleSubmit} className="bg-zinc-800 max-w-sm p-4 mb-2">
       <label htmlFor="title" className="block text-xs font-bold mb-2" >Title</label>
       <input
@@ -66,6 +68,8 @@ const TaskForm = () => {
       ></textarea>
       <button className="bg-indigo-600 px-2 py-1">Save</button>
     </form>
+    </div>
+    </div>
   );
 };
 

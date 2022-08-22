@@ -12,6 +12,8 @@ const TasksList = () => {
   };
 
   return (
+    <div className="bg-zinc-900 h-screen text-white">
+      <div className="flex items-center justify-center h-4/6">
     <div className="w-4/6">
       {/* Title/Button Section Start================================================ */}
       <header className="flex justify-between items-center py-4">
@@ -56,6 +58,9 @@ const TasksList = () => {
         ))}
       </div>
     </div>
+    </div>
+    </div>
+
   );
 };
 
